@@ -1,0 +1,34 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+background-color: black;
+}
+.container
+{
+margin-right: 20px;
+margin-left: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.headline{
+flex-basis: 35%;
+}
+.illustration{
+flex-basis: 40%;
+}
+.social-icons{
+flex-basis: 15%;
+margin-right: 70px;
+}
+.social-icons img{
+display: block;
+width: 20px;
+margin: 0 auto 20px;
+cursor: pointer;
+}
